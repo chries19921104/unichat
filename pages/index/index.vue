@@ -16,7 +16,7 @@
           </view>
         </view>
         <view class="userInfo-right">
-          <image class="image" src="@/static/images/index/tel.png" />
+          <!-- <image class="image" src="@/static/images/index/tel.png" /> -->
           <image
             class="image"
             id="addPic"

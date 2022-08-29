@@ -59,14 +59,14 @@
         />
         <text class="text text-disabled">发消息</text>
       </view>
-      <view class="operation-item" v-if="isFriend">
+      <!-- <view class="operation-item" v-if="isFriend">
         <image class="image" src="@/static/images/friend/phone.png" />
         <text class="text text1">电话</text>
-      </view>
-      <view class="operation-item" v-else>
+      </view> -->
+     <!-- <view class="operation-item" v-else>
         <image class="image" src="@/static/images/friend/phone-disabled.png" />
         <text class="text text-disabled">电话</text>
-      </view>
+      </view> -->
       <view class="operation-item" v-if="!isFriend" @click="toSend">
         <image class="image" src="@/static/images/friend/add.png" />
         <text class="text text2">添加好友</text>

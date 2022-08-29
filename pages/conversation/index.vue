@@ -8,9 +8,9 @@
         </view>
       </view>
       <view class="navbar-right" slot="right">
-        <view class="right-item" v-show="isSingleChat">
+       <!-- <view class="right-item" v-show="isSingleChat">
           <image class="image" src="@/static/images/conversation/phone.png" />
-        </view>
+        </view> -->
         <view class="right-item" v-show="!conversationData.isNotInGroup">
           <view class="dot" @click.stop="toInfo">
             <text class="dot-text"></text>

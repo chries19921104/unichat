@@ -93,11 +93,11 @@ export const fileArr = [
     src: camera,
     text: "拍摄",
   },
-  {
-    type: "phone",
-    src: phone,
-    text: "视频通话",
-  },
+  // {
+  //   type: "phone",
+  //   src: phone,
+  //   text: "视频通话",
+  // },
   {
     type: "file",
     src: file,

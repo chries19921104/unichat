@@ -7,7 +7,7 @@
       </view>
     </view>
     <view class="info-item">
-      <view class="left">语音和视频通话提醒</view>
+      <view class="left">语音提醒</view>
       <view class="right">
         <u-switch v-model="phoneNoticeStatus" />
       </view>
